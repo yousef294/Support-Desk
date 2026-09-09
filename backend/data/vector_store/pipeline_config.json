@@ -1,0 +1,9 @@
+{
+  "collection_name": "ecommerce_rag",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "ollama_model": "llama3.2",
+  "chunk_size": 400,
+  "chunk_overlap": 80,
+  "vector_store_dir": "c:\\Users\\Admin\\Desktop\\rag-assistant-project\\backend\\data\\vector_store",
+  "num_chunks": 105
+}
