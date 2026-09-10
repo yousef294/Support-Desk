@@ -112,9 +112,10 @@ pip install -r requirements.txt
 copy .env.example .env
 ollama pull llama3.2
 uvicorn app.main:app --reload
-
+```
 
 ### Frontend
+```
 bash
 cd frontend
 python -m venv .venv
