@@ -98,3 +98,22 @@ The application follows a Retrieval-Augmented Generation pipeline:
                   └─────────────────┘
 
 
+### Backend
+
+bash
+cd backend
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+copy .env.example .env
+ollama pull llama3.2
+uvicorn app.main:app --reload
+
+
+### Frontend
+bash
+cd frontend
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+streamlit run app.py
