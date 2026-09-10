@@ -96,10 +96,11 @@ The application follows a Retrieval-Augmented Generation pipeline:
                   ┌─────────────────┐
                   │ Streamlit UI    │
                   └─────────────────┘
-
-
-## Backend
-
+ّّّييي
+ذd
+```
+### Backend
+ييسش
 bash
 cd backend
 python -m venv .venv
@@ -110,7 +111,7 @@ ollama pull llama3.2
 uvicorn app.main:app --reload
 
 
-## Frontend
+### Frontend
 bash
 cd frontend
 python -m venv .venv
