@@ -98,7 +98,7 @@ The application follows a Retrieval-Augmented Generation pipeline:
                   └─────────────────┘
 
 
-### Backend
+## Backend
 
 bash
 cd backend
@@ -110,7 +110,7 @@ ollama pull llama3.2
 uvicorn app.main:app --reload
 
 
-### Frontend
+## Frontend
 bash
 cd frontend
 python -m venv .venv
