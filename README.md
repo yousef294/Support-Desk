@@ -96,11 +96,14 @@ The application follows a Retrieval-Augmented Generation pipeline:
                   ┌─────────────────┐
                   │ Streamlit UI    │
                   └─────────────────┘
-ّّّييي
-ذd
+
 ```
+## Setup
+
+---
+
 ### Backend
-ييسش
+```
 bash
 cd backend
 python -m venv .venv
